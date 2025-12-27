@@ -22,18 +22,26 @@ This project explores whether **red car ownership** varies across **age groups**
 
 ---
 
-## Repository structure
+## Repository Structure
 ```
 .
-├── analysis.R
-├── original_script.R
-├── data.csv
-├── output.csv
-└── images
-    ├── 01_age_boxplot.png
-    ├── 02_age_by_sex_boxplot.png
-    ├── 03_age_by_education_boxplot.png
-    └── 04_age_by_sex_and_education_boxplots.png
+├── data/
+│   └── RedCar_Dataset.csv
+│
+├── images/
+│   ├── 01_age_boxplot.png
+│   ├── 02_age_by_sex_boxplot.png
+│   ├── 03_age_by_education_boxplot.png
+│   └── 04_age_by_sex_and_education_boxplot.png
+│
+├── notebook/
+│   ├── RedCar EDA Final Script.R
+│   └── RedCar EDA Original Script.R
+│
+├── output/
+│   └── RedCar_Output.csv
+│
+└── README.md
 ```
 
 ---
@@ -81,7 +89,7 @@ Saved as: `output.csv`
 
 ---
 
-## Next improvements
+## Next Improvements
 - Add a chart of **red car percentage by age group**
 - Test statistical association (e.g. chi-square for `RED_CAR` vs `agegroup`)
 - Improve education ordering/labels for presentation
