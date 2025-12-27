@@ -97,4 +97,5 @@ Saved as: `output.csv`
 ---
 
 ## Author
-Made by Myetchae https://www.linkedin.com/in/myetchae/
+Myetchae | Data Enablement Coach
+https://www.linkedin.com/in/myetchae/
